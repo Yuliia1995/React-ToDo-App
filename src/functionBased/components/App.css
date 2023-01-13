@@ -166,6 +166,18 @@ a {
   height: 40vmin;
   pointer-events: none;
 }
+@media only screen and (max-width: 600px) {
+  .main__content {
+    top:10vh;
+    left:5vw;
+    width: 90vw;
+  }
+  .navBar {
+    left: 10px;
+    top: 10px;
+  }
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
