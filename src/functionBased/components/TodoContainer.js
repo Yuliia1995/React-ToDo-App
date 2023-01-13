@@ -89,7 +89,7 @@ const TodoContainer = () => {
             <Navbar />
             <Switch> 
                 {/* W/o the SWITCH, the path will always match the urls, so that all the views will render */}
-            <Route exact path="/">
+            <Route exact path="/React-ToDo-App/">
                 {/* Instead of class attribute JSX uses className */}
                 <div className="container"> 
                     <div className="inner">
@@ -101,7 +101,7 @@ const TodoContainer = () => {
             </Route>
             {/* <Route path="/about">
                 <About /> */}
-            <Route exact path="/about" component={About} > 
+            <Route exact path="/React-ToDo-App/about" component={About} > 
             {/* component attribute allows to access url, path, params for nested routing */}
             </Route>
             <Route path="*">
